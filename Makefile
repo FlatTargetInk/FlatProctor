@@ -1,8 +1,8 @@
 CC	= g++
 CFLAGS	= 
-_OBJ	= main.o 
+_OBJ	= main.o model.o
 OBJ	= $(patsubst %,$(ODIR)/%,$(_OBJ))
-DEPS	= 
+DEPS	= model.h
 
 ODIR	= obj
 SDIR 	= src

@@ -3,5 +3,10 @@
 
 #include "model.cpp"
 
+class Test{
+	public:
+		ustring name;
+}
+
 
 #endif // MODELHEADER
